@@ -1,6 +1,7 @@
 package com.demo.mms.dao;
 
 import com.demo.mms.common.domain.Admin;
+import com.demo.mms.common.domain.Midreport;
 
 
 /**
@@ -8,4 +9,5 @@ import com.demo.mms.common.domain.Admin;
  */
 public interface AdminMapper {
     int insert(Admin admin);
+    int insertMidreport(Midreport midreport);
 }
